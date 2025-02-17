@@ -1,0 +1,4 @@
+name: mtk64
+build:
+  settings:
+    board_root: config

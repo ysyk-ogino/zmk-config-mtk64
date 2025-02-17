@@ -1,0 +1,8 @@
+config SHIELD_MTK64_R
+    def_bool $(shields_list_contains,mtk64_R)
+
+config SHIELD_MTK64_L
+    def_bool $(shields_list_contains,mtk64_L)
+
+config SHIELD_MTK64_FOOT
+    def_bool $(shields_list_contains,mtk64_FOOT)

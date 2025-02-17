@@ -1,0 +1,32 @@
+if SHIELD_MTK64_R
+
+config ZMK_KEYBOARD_NAME
+    default "mtk64_R"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MTK64_L
+
+config ZMK_KEYBOARD_NAME
+    default "mtk64_L"
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if SHIELD_MTK64_FOOT
+
+config ZMK_KEYBOARD_NAME
+    default "mtk64_FOOT"
+
+config ZMK_SPLIT
+    default y
+
+endif
